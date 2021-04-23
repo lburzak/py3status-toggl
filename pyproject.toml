@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "i3-toggl"
+version = "0.1.0"
+description = ""
+authors = ["polydome <polydome@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+togglCli = "^2.4.2"
+py3status = "^3.36"
+pendulum = "^2.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
